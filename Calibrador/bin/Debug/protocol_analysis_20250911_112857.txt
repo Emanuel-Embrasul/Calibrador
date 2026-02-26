@@ -1,0 +1,2 @@
+=== ANÁLISE DE PROTOCOLO 192.168.1.65:1001 ===
+❌ ERRO GERAL: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 192.168.1.65:1001

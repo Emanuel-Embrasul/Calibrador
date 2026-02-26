@@ -1,0 +1,87 @@
+=== ANÁLISE DE PROTOCOLO 192.168.1.65:1001 ===
+✅ Conectado
+
+--- Comando Original ---
+Enviado: 01 02 03 04
+Resposta: 01 82 01 81 60 (Len: 5)
+Análise: Bytes: 5, Header: 0x0182, Checksum? (XOR:03, SUM:05), 
+
+--- Teste ID 01 ---
+Enviado: 01
+Resposta: 01 82 01 81 60 (Len: 5)
+Análise: Bytes: 5, Header: 0x0182, Checksum? (XOR:03, SUM:05), 
+
+--- Teste ID 02 ---
+Enviado: 02
+Resposta: (vazio)
+
+--- Read Request ---
+Enviado: 01 03
+Resposta: 01 83 01 80 F0 (Len: 5)
+Análise: Bytes: 5, Header: 0x0183, Checksum? (XOR:03, SUM:05), 
+
+--- Status Request ---
+Enviado: 01 01
+Resposta: 01 81 01 81 90 (Len: 5)
+Análise: Bytes: 5, Header: 0x0181, Checksum? (XOR:00, SUM:04), 
+
+--- Voltage Request ---
+Enviado: 01 10
+Resposta: 01 90 01 8D C0 (Len: 5)
+Análise: Bytes: 5, Header: 0x0190, Checksum? (XOR:1D, SUM:1F), 
+
+--- Data Request ---
+Enviado: 01 20
+Resposta: 01 A0 01 99 C0 (Len: 5)
+Análise: Bytes: 5, Header: 0x01A0, Checksum? (XOR:39, SUM:3B), 
+
+--- Extended 1 ---
+Enviado: 01 03 00 00
+Resposta: 01 83 01 80 F0 (Len: 5)
+Análise: Bytes: 5, Header: 0x0183, Checksum? (XOR:03, SUM:05), 
+
+--- Extended 2 ---
+Enviado: 01 03 03 20
+Resposta: 01 83 01 80 F0 (Len: 5)
+Análise: Bytes: 5, Header: 0x0183, Checksum? (XOR:03, SUM:05), 
+
+--- Extended 3 ---
+Enviado: 01 03 03 22
+Resposta: 01 83 01 80 F0 (Len: 5)
+Análise: Bytes: 5, Header: 0x0183, Checksum? (XOR:03, SUM:05), 
+
+--- Checksum Test ---
+Enviado: 01 03 00 04
+Resposta: 01 83 01 80 F0 (Len: 5)
+Análise: Bytes: 5, Header: 0x0183, Checksum? (XOR:03, SUM:05), 
+
+--- Multi-byte ---
+Enviado: 01 03 00 00 00 02
+Resposta: 01 83 01 80 F0 (Len: 5)
+Análise: Bytes: 5, Header: 0x0183, Checksum? (XOR:03, SUM:05), 
+
+=== TESTE DE PADRÕES ESPECÍFICOS ===
+
+--- Pattern CRC ---
+Cmd: 01 03 00 00 F1 D8
+Rsp: 01 83 03 01 31
+Análise: Bytes: 5, Header: 0x0183, Checksum? (XOR:80, SUM:88), 
+
+--- Pattern XOR ---
+Cmd: 01 03 00 00 02
+Rsp: 01 83 01 80 F0
+Análise: Bytes: 5, Header: 0x0183, Checksum? (XOR:03, SUM:05), 
+
+--- Pattern SUM ---
+Cmd: 01 03 00 00 04
+Rsp: 01 83 01 80 F0
+Análise: Bytes: 5, Header: 0x0183, Checksum? (XOR:03, SUM:05), 
+
+--- Device ID 0 ---
+Sem resposta
+
+--- Device ID 255 ---
+Sem resposta
+
+--- Broadcast ---
+Sem resposta

@@ -1,0 +1,16 @@
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\bin\Debug\Calibrador.exe.config
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\bin\Debug\Calibrador.exe
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\bin\Debug\Calibrador.pdb
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\bin\Debug\pt-BR\Calibrador.resources.dll
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\bin\Debug\NModbus4.dll
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\bin\Debug\NModbus4.xml
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\obj\Debug\Calibrador.csproj.AssemblyReference.cache
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\obj\Debug\Calibrador.Form1.resources
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\obj\Debug\Calibrador.Properties.Resources.resources
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\obj\Debug\Calibrador.Form1.pt-BR.resources
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\obj\Debug\Calibrador.csproj.GenerateResource.cache
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\obj\Debug\Calibrador.csproj.CoreCompileInputs.cache
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\obj\Debug\pt-BR\Calibrador.resources.dll
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\obj\Debug\Calibrador.csproj.Up2Date
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\obj\Debug\Calibrador.exe
+C:\Users\Emanuel Souza\Documents\Calibrador\Calibrador\obj\Debug\Calibrador.pdb
